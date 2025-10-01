@@ -37,6 +37,7 @@
     border-radius: 5px;
     margin-right: 10px;
 }
+
 .taskbar-2{
     display: flex;
     flex-direction: column;
