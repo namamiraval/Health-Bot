@@ -24,6 +24,7 @@ app.post("/chat", async (req, res) => {
 
     console.log("Gemini response:", response); // log raw response
     res.json({ reply: response.text || "⚠ No reply from Gemini" });
+    
   } catch (error) {
     console.error("Error in Gemini API:", error);
     res.status(500).json({ error: "Something went wrong" });
