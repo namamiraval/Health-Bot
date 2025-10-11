@@ -1,4 +1,3 @@
-# backend/utils.py
 # Utilities: text cleaning, TF-IDF retriever build/load, and retrieval helper
 import json
 import os
