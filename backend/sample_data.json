@@ -1,4 +1,98 @@
 [
-{"question": "what are common cold symptoms", "answer": "Common cold symptoms include runny nose, sore throat, cough, and mild fever. Rest and fluids help."},
-{"question": "how to treat a headache", "answer": "For mild headaches, rest, hydration, and over-the-counter pain relief like paracetamol can help. If severe or recurrent, consult a doctor."}
+  {
+    "question": "what are common cold symptoms",
+    "answer": "Common cold symptoms include runny or stuffy nose, sore throat, sneezing, cough, mild body aches, and sometimes a low-grade fever. Rest, fluids, and over-the-counter remedies (like paracetamol for fever/pain) usually help. If symptoms worsen or last more than 10 days, see a doctor."
+  },
+  {
+    "question": "how to treat a headache",
+    "answer": "For mild headaches, rest in a quiet, dark room, stay hydrated, and consider over-the-counter pain relief (paracetamol or ibuprofen if appropriate). If you have recurring or severe headaches, or headaches with visual changes, weakness, or vomiting, consult a healthcare professional."
+  },
+  {
+    "question": "what should i do for a fever",
+    "answer": "Stay hydrated, rest, and monitor your temperature. Use paracetamol (acetaminophen) or ibuprofen for discomfort/fever if it's safe for you. Seek medical care if fever is very high, persistent (>72 hours), or accompanied by severe symptoms like breathing difficulty, confusion, or a rash."
+  },
+  {
+    "question": "how to treat a sore throat",
+    "answer": "Gargle warm salt water, stay hydrated, use throat lozenges, and rest your voice. Over-the-counter pain relief may help. If you have difficulty breathing, high fever, drooling, or symptoms lasting more than a week, see a doctor."
+  },
+  {
+    "question": "i have cough and sore throat what should i do",
+    "answer": "Drink warm fluids, rest, use honey for cough (if older than 1 year), and consider a steam inhalation. If you have shortness of breath, high fever, blood in sputum, or symptoms worsening quickly, seek medical attention."
+  },
+  {
+    "question": "what are symptoms of dehydration",
+    "answer": "Common signs: dry mouth, excessive thirst, reduced urine output or dark urine, dizziness, and fatigue. For mild dehydration, drink oral fluids with electrolytes. For severe dehydration (confusion, very low urine output, fainting), seek urgent medical care."
+  },
+  {
+    "question": "how to care for a minor burn",
+    "answer": "Cool the burn under running cool (not ice) water for 10–20 minutes, gently clean, and cover with a sterile non-stick dressing. Do not apply butter or oils. For large, deep, or blistering burns, or burns on the face/genitals/hands, seek medical care."
+  },
+  {
+    "question": "what to do if someone faints",
+    "answer": "Lay the person flat and raise their legs if there are no signs of head/neck injury. Loosen tight clothing, check breathing and responsiveness, and keep them comfortable. If they don't regain consciousness quickly, show signs of breathing trouble, or the fainting was during exertion, get medical help immediately."
+  },
+  {
+    "question": "how to manage mild anxiety or panic at home",
+    "answer": "Try grounding techniques (deep breathing, 5-4-3-2-1 sensory method), slow diaphragmatic breaths, and remove yourself from stressful triggers. If anxiety is frequent or interfering with daily life, consider speaking to a mental health professional."
+  },
+  {
+    "question": "what is a 'red flag' symptom that needs emergency care",
+    "answer": "Red-flag signs include sudden chest pain, severe or worsening difficulty breathing, sudden weakness or slurred speech, loss of consciousness, severe bleeding, or signs of a stroke. If any of these occur, call emergency services immediately."
+  },
+  {
+    "question": "how to treat minor cuts and scrapes",
+    "answer": "Clean the wound gently with running water, remove dirt, apply an antiseptic, and cover with a sterile dressing. Change the dressing daily and watch for signs of infection (increasing redness, pus, fever). For deep cuts, persistent bleeding, or embedded objects, seek medical care."
+  },
+  {
+    "question": "how to improve sleep hygiene",
+    "answer": "Maintain a regular sleep schedule, avoid screens 30–60 minutes before bed, keep your bedroom cool and dark, limit caffeine late in the day, and establish a relaxing pre-sleep routine. If insomnia persists, consider consulting a healthcare provider."
+  },
+  {
+    "question": "what should i do for an allergic reaction",
+    "answer": "For mild allergic reactions (rash, itching), antihistamines and avoiding the allergen help. For severe reactions with swelling of face/lips, difficulty breathing, or falling blood pressure (anaphylaxis), use epinephrine if available and call emergency services immediately."
+  },
+  {
+    "question": "how to manage nausea at home",
+    "answer": "Try small sips of clear fluids, eat bland foods (toast, crackers), avoid strong smells, and rest. Over-the-counter anti-nausea options may help. If you cannot keep fluids down, have severe abdominal pain, or see blood in vomit, seek medical care."
+  },
+  {
+    "question": "what should i know about over-the-counter painkillers",
+    "answer": "Common OTC options include paracetamol (acetaminophen) and NSAIDs like ibuprofen. Use as directed on the label, avoid exceeding recommended doses, and be cautious with pre-existing conditions (liver disease, stomach issues). If unsure, consult a pharmacist or doctor."
+  },
+  {
+    "question": "how to reduce fever in children",
+    "answer": "Ensure the child stays hydrated, dress them in light clothing, and use age-appropriate doses of paracetamol or ibuprofen if needed. Never give aspirin to children. Seek urgent care if the child is very young (under 3 months with fever), has a seizure, or is unusually drowsy."
+  },
+  {
+    "question": "how long after taking antibiotics should i feel better",
+    "answer": "Many bacterial infections begin to improve within 48–72 hours of starting appropriate antibiotics, but it depends on the infection. Always complete the full prescribed course. If symptoms do not improve or worsen, contact your prescriber."
+  },
+  {
+    "question": "what to do for muscle strain",
+    "answer": "Use the R.I.C.E. method: Rest, Ice (short periods), Compression, and Elevation. Over-the-counter pain relief may help. If you cannot move the limb, have severe swelling, or suspect a tear/fracture, see a clinician."
+  },
+  {
+    "question": "how to handle a suspected fracture",
+    "answer": "Immobilize the limb using a splint if possible, avoid moving the injured part, apply ice to reduce swelling, and seek medical attention promptly. Do not try to realign bones yourself."
+  },
+  {
+    "question": "how to tell if a sore throat is strep throat",
+    "answer": "Strep throat often causes sudden severe sore throat, pain on swallowing, fever, swollen lymph nodes, and sometimes white patches on tonsils. A definitive diagnosis requires a rapid strep test or throat culture performed by a clinician."
+  },
+  {
+    "question": "what should i do if bitten by an animal",
+    "answer": "Clean the wound gently with soap and water, control bleeding, and seek medical care—especially for deep bites or bites from wild or unvaccinated animals. You may need a tetanus booster or rabies evaluation depending on the situation."
+  },
+  {
+    "question": "how to manage mild dehydration in kids",
+    "answer": "Offer small, frequent sips of oral rehydration solution (ORS). Avoid sugary drinks. If the child shows signs of severe dehydration (sunken eyes, very little urine, lethargy), get urgent medical care."
+  },
+  {
+    "question": "can i rely on online info for diagnosis",
+    "answer": "Online information can help you understand symptoms, but it cannot replace a clinical assessment. This chatbot provides general educational info only and is not a substitute for professional medical advice. If in doubt, consult a healthcare provider."
+  },
+  {
+    "question": "how can i get help for depression or self-harm thoughts",
+    "answer": "If you are thinking about self-harm or suicide, contact emergency services or your local crisis line immediately. Reach out to trusted people and consider contacting a mental health professional. If you're not in immediate danger, a counselor or phone helpline can provide support."
+  }
 ]
