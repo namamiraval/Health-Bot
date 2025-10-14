@@ -1,5 +1,5 @@
 # backend/evaluation.py
-import drive
+from google.colab import drive
 drive.mount('/content/drive')
 import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
