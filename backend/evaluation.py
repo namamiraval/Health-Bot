@@ -1,11 +1,14 @@
 # backend/evaluation.py
+from google.colab import drive
+drive.mount('/content/drive')
 import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from utils import retrieve
 import re
+from google.colab import drive
+drive.mount('/content/drive')
 
-# Load your labeled data
-df = pd.read_csv("data/test_queries.csv")
+df = pd.read_csv('/content/drive/MyDrive/Datasets/Dipiro-Handbook.pdf')
 
 y_true = df["correct_answer"].tolist()
 y_pred = []
