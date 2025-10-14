@@ -21,3 +21,4 @@ if __name__ == "__main__":
     text = extract_text_from_pdf(df)
     open("data/raw_text.txt", "w", encoding="utf-8").write(text)
     print("Text extracted and saved to data/raw_text.txt")
+
