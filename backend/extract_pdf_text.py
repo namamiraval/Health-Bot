@@ -1,15 +1,22 @@
 # backend/extract_pdf_text.py
+# Step 1: Data Exploration
+from google.colab import drive
+drive.mount('/content/drive')
+import pandas as pd
+
+df = pd.read_csv('/content/drive/MyDrive/Datasets/Dipiro-Handbook.pdf')
+
 import fitz  # PyMuPDF
 
-def extract_text_from_pdf(pdf_path):
+def extract_text_from_pdf(df):
     text = ""
-    with fitz.open(pdf_path) as doc:
+    with fitz.open(df) as doc:
         for page in doc:
             text += page.get_text()
     return text
 
 if __name__ == "__main__":
-    pdf_path = "data/medical_handbook.pdf"
-    text = extract_text_from_pdf(pdf_path)
+    #pdf_path = "data/medical_handbook.pdf"
+    text = extract_text_from_pdf(df)
     open("data/raw_text.txt", "w", encoding="utf-8").write(text)
-    print("✅ Text extracted and saved to data/raw_text.txt")
+    print("Text extracted and saved to data/raw_text.txt")
