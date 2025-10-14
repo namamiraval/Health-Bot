@@ -1,11 +1,9 @@
 # backend/extract_pdf_text.py
 # Step 1: Data Exploration
 
-from google.colab import drive
-drive.mount('/content/drive')
 import pandas as pd
 
-df = pd.read_csv('/content/drive/MyDrive/Datasets/Dipiro-Handbook.pdf')
+df = pd.read_csv('Dipiro-Handbook.pdf')
 
 import fitz  # PyMuPDF
 
