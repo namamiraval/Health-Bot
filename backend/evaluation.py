@@ -6,7 +6,6 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from utils import retrieve
 import re
 
-
 df = pd.read_csv('/content/drive/MyDrive/Datasets/Dipiro-Handbook.pdf')
 
 y_true = df["correct_answer"].tolist()
