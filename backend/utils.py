@@ -94,3 +94,4 @@ if __name__ == "__main__":
         print("Saved index to", INDEX_PATH)
     else:
         print("Usage: python utils.py build")
+
