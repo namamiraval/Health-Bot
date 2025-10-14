@@ -5,8 +5,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from utils import retrieve
 import re
-from google.colab import drive
-drive.mount('/content/drive')
+
 
 df = pd.read_csv('/content/drive/MyDrive/Datasets/Dipiro-Handbook.pdf')
 
