@@ -1,5 +1,6 @@
 # backend/extract_pdf_text.py
 # Step 1: Data Exploration
+
 from google.colab import drive
 drive.mount('/content/drive')
 import pandas as pd
