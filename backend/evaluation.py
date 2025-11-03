@@ -35,8 +35,9 @@ def is_match(true_ans: str, pred_ans: str) -> bool:
     return (t in p) or (p in t)
 
 def evaluate(df: pd.DataFrame, threshold: float = 0.2):
-    
+
     # Basic checks
+
     if "user_input" not in df.columns or "correct_answer" not in df.columns:
         raise ValueError("Input CSV must contain 'user_input' and 'correct_answer' columns.")
 
@@ -67,6 +68,7 @@ def evaluate(df: pd.DataFrame, threshold: float = 0.2):
     # Compute precision/recall/f1 for the retrieval decision:
     # - predicted_positive_flags are what the model says it 'confidently' returned
     # - matched_flags indicate true positives among those predictions
+    
     tp = sum(1 for p, m in zip(predicted_positive_flags, matched_flags) if p == 1 and m == 1)
     predicted_pos_count = sum(predicted_positive_flags)
     actual_pos_count = len(matched_flags)  # assuming every row has a true answer we want to retrieve
