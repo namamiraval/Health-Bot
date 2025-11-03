@@ -63,6 +63,7 @@ def evaluate(df: pd.DataFrame, threshold: float = 0.2):
         matched_flags.append(int(matched))
 
     # Exact-match style accuracy (using our is_match logic)
+    
     accuracy = float(np.mean(matched_flags))
 
     # Compute precision/recall/f1 for the retrieval decision:
