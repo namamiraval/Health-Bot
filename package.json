@@ -1,6 +1,7 @@
 {
-  
+
   "type": "module",
+  
   "dependencies": 
   {
     "@google/genai": "^1.17.0",
